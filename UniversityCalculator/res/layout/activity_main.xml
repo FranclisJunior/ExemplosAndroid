@@ -1,0 +1,31 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+    
+    <Button
+	    android:id="@+id/btAdicionarD"
+	    android:layout_width="190dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="66dp"
+	    android:layout_y="80dp"
+	    android:text="Adicionar Disciplinas" />
+    
+	<Button
+	    android:id="@+id/btListarD"
+	    android:layout_width="190dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="66dp"
+	    android:layout_y="150dp"
+	    android:text="Disciplinas Cadastradas" />
+
+	<Button
+	    android:id="@+id/btCalcularCRE"
+	    android:layout_width="190dp"
+	    android:layout_height="wrap_content"
+	    android:layout_x="66dp"
+	    android:layout_y="220dp"
+	    android:text="Calcular CRE" />
+
+
+</AbsoluteLayout>

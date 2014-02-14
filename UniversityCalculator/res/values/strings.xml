@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">UniversityCalculator</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="Table_Disciplinas">
+		CREATE TABLE Disciplinas (ID INTEGER PRIMARY KEY AUTOINCREMENT, Nome TEXT,	Media TEXT, Creditos TEXT , Horas TEXT);
+	</string>
+	<string name="ContextoDados_onUpgrade">"
+		DROP TABLE IF EXISTS Disciplinas
+	</string>
+
+</resources>

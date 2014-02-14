@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblListaDisciplinas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Disciplina Cadastradas"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/txtDisciplinasCadastradas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nenhuma disciplina cadastrada" />
+
+    <ListView
+        android:id="@+id/lv_disciplinas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </ListView>
+  
+    <LinearLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    	
+    	<Button 
+    	    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="Voltar"
+        	android:id="@+id/btnVoltar"/>
+    	
+    	<Button 
+    	    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="Nova"
+        	android:id="@+id/btnNova"/>
+        	  
+    
+    </LinearLayout>
+
+  
+
+
+
+</LinearLayout>
