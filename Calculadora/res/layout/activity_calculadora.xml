@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+   	android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculadora" />
+    
+  	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o primeiro valor"/>
+   	  
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valor1"
+        android:numeric="decimal"/>
+	
+	<TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Digite o segundo valor" />
+		  
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/valor2"
+        android:numeric="decimal"/>
+	
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+    	
+    	<Button 
+    	    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="+"
+        	android:id="@+id/soma"/>
+    	<Button 
+    	    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="-"
+        	android:id="@+id/sub"/>
+    
+    	<Button 
+    	    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="*"
+        	android:id="@+id/multi"/>
+    
+    	<Button 
+    	    android:layout_width="0dp"
+        	android:layout_height="wrap_content"
+        	android:layout_weight="1"
+        	android:text="/"
+        	android:id="@+id/div"/>
+    
+    
+    </LinearLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Resultado: " />
+   	  
+	<EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultado"
+        android:numeric="decimal"/>
+
+</LinearLayout>
